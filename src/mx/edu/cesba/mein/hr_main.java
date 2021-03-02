@@ -14,14 +14,14 @@ public class hr_main {
     public static void main(String[] args) {
      employee el = new employee ();
      employee e2 = new employee ();
-     el.id = 1;
-     el.firstname = JOptionPane.showInputDialog("ingrese nombre");
-     el.lastname = JOptionPane.showInputDialog("ingrese apellido");
-     el.age = Integer.parseInt(JOptionPane.showInputDialog("ingrese la edad"));
-     el.email = JOptionPane.showInputDialog("ingrese el correo");
-     el.phonenumber = Integer.parseInt(JOptionPane.showInputDialog("ingrese la numero telefonico"));
-     el.salary = Double.parseDouble(JOptionPane.showInputDialog("ingrese salario"));
-     el.hiredate = JOptionPane.showInputDialog("ingrese fecha de contratacion");
+     el.setId(1);
+     el.setfirstname(JOptionPane.showInputDialog("ingrese nombre"));
+     el.setlastname(JOptionPane.showInputDialog("ingrese apellido"));
+     el.setage(Integer.parseInt(JOptionPane.showInputDialog("ingrese la edad")));
+     el.setemail(JOptionPane.showInputDialog("ingrese el correo"));
+     el.setphonenumber(Integer.parseInt(JOptionPane.showInputDialog("ingrese la numero telefonico")));
+     el.setsalary(Double.parseDouble(JOptionPane.showInputDialog("ingrese salario")));
+     el.sethiredate(JOptionPane.showInputDialog("ingrese fecha de contratacion"));
      el.getdetails();
      
      System.out.println("------------------");
